@@ -15,9 +15,11 @@ struct TreeNode
     int y;
     static const int xMoves[];
     static const int yMoves[];
+    static bool closedTourRequired;
 
     void makeChildLayer(const std::vector<std::vector<int>> &board);
     static bool processNode(TreeNode &node, int depth, std::vector<std::vector<int>> &board);
+    static bool isClosedTour(const TreeNode &node, const std::vector<std::vector<int>> &board);
 };
 
 #endif
