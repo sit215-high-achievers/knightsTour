@@ -9,3 +9,7 @@ e.g. Launching with "./knightsTour.exe 8 1" will find a closed knights tour on a
      
 The output will be an NxN grid of integers representing the board. Each number on the board indicates
 the order of moves, with 1 as the starting position.
+
+
+knightsTour.py is a simplified version of the c++ code containing a more readable version of the
+core algorithm.
